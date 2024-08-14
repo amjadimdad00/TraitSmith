@@ -1,0 +1,13 @@
+Layer Order
+===================
+
+1) Shoulder Pad Left
+2) Accessory
+3) Cloak
+4) Armor
+5) Hairstyle
+6) Expression
+7) Character Base
+8) Weapon
+9) Shoulder Pad Right
+10)Background
