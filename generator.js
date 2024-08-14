@@ -8,7 +8,7 @@ const sleep = (ms) => {
 };
 
 const build = async (index, onComplete) => {
-  const _path = "D:/PROJECTS/TraitsGenerator/traits-gen";
+  const _path = "D:/PROJECTS/Office Projects/traits-gen";
   var _traits = [];
 
   const background = Traits.getBackground();

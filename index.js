@@ -1,7 +1,7 @@
 const Generator = require("./generator");
 const initial = async () => {
   var _thisIndex = 1;
-  const _maxSupply = 4444;
+  const _maxSupply = 5  ;
   while (_thisIndex <= _maxSupply) {
     try {
       console.log("Generating NFT " + _thisIndex);
