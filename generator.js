@@ -1,8 +1,6 @@
 require("dotenv").config();
 const Jimp = require("jimp");
 const fs = require("fs");
-// const pinataSDK = require("@pinata/sdk");
-// const pinata = pinataSDK(process.env.PINATA_KEY, process.env.PINATA_API_SECRET);
 const Traits = require("./traits");
 
 const sleep = (ms) => {
@@ -118,11 +116,7 @@ const build = async (index, onComplete) => {
   _composedImage.blit(splJimp, 0, 0);
 
   await _composedImage.write(`Output/${index}/` + index + ".png");
-  await sleep(10); //We give some time for the image to be actually saved in our files
-  // const _readableStream = await fs.createReadStream(
-  //   _path + "/Output/images/" + index + ".png"
-  // );
-  // const _ipfs = await pinata.pinFileToIPFS(_readableStream);
+  await sleep(10);
 
   await fs.writeFileSync(
     `Output/${index}/` + `${index}.json`,
