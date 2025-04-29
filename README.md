@@ -1,6 +1,18 @@
-# **TraitSmith** 🛠️✨
+# 🧬 TraitSmith – Character Trait Generator
 
-**TraitSmith** is an intuitive tool for creating and customizing unique traits for characters, personalities, or profiles. Ideal for writers 📚, game developers 🎮, and designers 🎨, it offers a versatile platform to generate, refine, and tweak attributes, ensuring every character or profile stands out. Whether you're crafting personas for a story or a simulation, **TraitSmith** makes the process seamless and efficient. 🚀💡
+TraitSmith is a Node.js-based modular character generator. It takes individual trait layers like body parts, armor, weapons, facial features, etc., and composes them into full character images — ideal for games, NFTs, avatars, or any fantasy illustration needs.
+
+![Sample Output](./1.png)
+
+---
+
+## 🚀 Features
+
+- Modular trait layering system (e.g., hair, eyes, armor, weapons)
+- Fully customizable trait folders and rarity settings
+- Outputs composited PNG images
+- CLI interface for generating single or bulk images
+- Optional metadata output for each character
 
 ## Traits Made Using This:
 
