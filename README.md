@@ -2,8 +2,6 @@
 
 TraitSmith is a Node.js-based modular character generator. It takes individual trait layers like body parts, armor, weapons, facial features, etc., and composes them into full character images — ideal for games, NFTs, avatars, or any fantasy illustration needs.
 
-![Sample Output](./1.png)
-
 ---
 
 ## 🚀 Features
